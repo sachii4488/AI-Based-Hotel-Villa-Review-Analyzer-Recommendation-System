@@ -1,0 +1,910 @@
+{
+  "Ahungalla": [
+    {
+      "hotel_id": "496623",
+      "name": "Heritance Ahungalla",
+      "rating": 4.5,
+      "num_reviews": 4979.0,
+      "latitude": 6.311592,
+      "longitude": 80.0318
+    },
+    {
+      "hotel_id": "10039170",
+      "name": "Hotel Riu Sri Lanka",
+      "rating": 4.5,
+      "num_reviews": 3304.0,
+      "latitude": 6.309913,
+      "longitude": 80.03389
+    },
+    {
+      "hotel_id": "8006887",
+      "name": "White Villa Resort",
+      "rating": 4.5,
+      "num_reviews": 60.0,
+      "latitude": 6.313757,
+      "longitude": 80.02903
+    },
+    {
+      "hotel_id": "622991",
+      "name": "La Maison Nil Manel",
+      "rating": 5.0,
+      "num_reviews": 476.0,
+      "latitude": 6.304981,
+      "longitude": 80.03741
+    }
+  ],
+  "Anuradhapura": [
+    {
+      "hotel_id": "1955662",
+      "name": "Heritage Hotel Anuradhapura",
+      "rating": 4.5,
+      "num_reviews": 1738.0,
+      "latitude": 8.326964,
+      "longitude": 80.37862
+    },
+    {
+      "hotel_id": "3177673",
+      "name": "Hotel Alakamanda",
+      "rating": 4.0,
+      "num_reviews": 528.0,
+      "latitude": 8.309091,
+      "longitude": 80.41729
+    },
+    {
+      "hotel_id": "4476135",
+      "name": "Rajarata Hotel Anuradapura",
+      "rating": 4.0,
+      "num_reviews": 1052.0,
+      "latitude": 8.330646,
+      "longitude": 80.419044
+    },
+    {
+      "hotel_id": "18816510",
+      "name": "The Lake Forest Hotel",
+      "rating": 4.5,
+      "num_reviews": 149.0,
+      "latitude": 8.328517,
+      "longitude": 80.37167
+    }
+  ],
+  "Arugam Bay": [
+    {
+      "hotel_id": "9587644",
+      "name": "The Blue Wave Hotel",
+      "rating": 4.5,
+      "num_reviews": 336.0,
+      "latitude": 6.88276,
+      "longitude": 81.844025
+    },
+    {
+      "hotel_id": "8439700",
+      "name": "The Spice Trail",
+      "rating": 4.5,
+      "num_reviews": 336.0,
+      "latitude": 6.841487,
+      "longitude": 81.83218
+    }
+  ],
+  "Dambulla": [
+    {
+      "hotel_id": "315685",
+      "name": "Heritance Kandalama",
+      "rating": 4.5,
+      "num_reviews": 5615.0,
+      "latitude": 7.871171,
+      "longitude": 80.70803
+    },
+    {
+      "hotel_id": "10626289",
+      "name": "Jetwing Lake",
+      "rating": 5.0,
+      "num_reviews": 1276.0,
+      "latitude": 7.839788,
+      "longitude": 80.64903
+    },
+    {
+      "hotel_id": "3308737",
+      "name": "Occidental Paradise Dambulla",
+      "rating": 4.5,
+      "num_reviews": 1390.0,
+      "latitude": 7.891678,
+      "longitude": 80.725204
+    },
+    {
+      "hotel_id": "10903452",
+      "name": "Seerock The King's Domain",
+      "rating": 5.0,
+      "num_reviews": 263.0,
+      "latitude": 7.999112,
+      "longitude": 80.745415
+    },
+    {
+      "hotel_id": "12059634",
+      "name": "Liyya Water Villas",
+      "rating": 4.5,
+      "num_reviews": 349.0,
+      "latitude": 7.784759,
+      "longitude": 80.64743
+    },
+    {
+      "hotel_id": "5980996",
+      "name": "Kalundewa Retreat",
+      "rating": 4.5,
+      "num_reviews": 323.0,
+      "latitude": 7.796857,
+      "longitude": 80.67624
+    },
+    {
+      "hotel_id": "8655826",
+      "name": "Rangiri Dambulla Resort",
+      "rating": 4.5,
+      "num_reviews": 381.0,
+      "latitude": 7.848332,
+      "longitude": 80.6345
+    },
+    {
+      "hotel_id": "801615",
+      "name": "Pelwehera Village Resort",
+      "rating": 4.0,
+      "num_reviews": 434.0,
+      "latitude": 7.903456,
+      "longitude": 80.66933
+    },
+    {
+      "hotel_id": "2372292",
+      "name": "Sundaras Resort & Spa",
+      "rating": 4.0,
+      "num_reviews": 1335.0,
+      "latitude": 7.854837,
+      "longitude": 80.652466
+    },
+    {
+      "hotel_id": "649489",
+      "name": "Sigiriana Resort",
+      "rating": 4.0,
+      "num_reviews": 851.0,
+      "latitude": 7.822019,
+      "longitude": 80.654755
+    },
+    {
+      "hotel_id": "1773298",
+      "name": "Nice Place Hotel",
+      "rating": 4.0,
+      "num_reviews": 642.0,
+      "latitude": 7.909643,
+      "longitude": 80.69163
+    }
+  ],
+  "Giritale": [
+    {
+      "hotel_id": "594619",
+      "name": "Giritale Hotel",
+      "rating": 4.0,
+      "num_reviews": 480.0,
+      "latitude": 7.989361,
+      "longitude": 80.922905
+    }
+  ],
+  "Hambantota": [
+    {
+      "hotel_id": "8869502",
+      "name": "Shangri-La Hambantota",
+      "rating": 4.5,
+      "num_reviews": 2645.0,
+      "latitude": 6.112264,
+      "longitude": 81.063934
+    },
+    {
+      "hotel_id": "23064853",
+      "name": "Birds Resort Hambantota",
+      "rating": 5.0,
+      "num_reviews": 153.0,
+      "latitude": 6.214703,
+      "longitude": 81.091225
+    },
+    {
+      "hotel_id": "1160171",
+      "name": "The Oasis Ayurveda Beach Resort",
+      "rating": 4.5,
+      "num_reviews": 88.0,
+      "latitude": 6.11226,
+      "longitude": 81.07075
+    },
+    {
+      "hotel_id": "10807765",
+      "name": "Jade Green Hambantota",
+      "rating": 4.0,
+      "num_reviews": 65.0,
+      "latitude": 6.1358,
+      "longitude": 81.13017
+    },
+    {
+      "hotel_id": "5142908",
+      "name": "Peacock Beach Resort and Spa",
+      "rating": 3.0,
+      "num_reviews": 260.0,
+      "latitude": 6.133476,
+      "longitude": 81.13155
+    }
+  ],
+  "Heerassagala": [
+    {
+      "hotel_id": "480276",
+      "name": "Amaya Hills Kandy",
+      "rating": 4.0,
+      "num_reviews": 3691.0,
+      "latitude": 7.25913,
+      "longitude": 80.61932
+    }
+  ],
+  "Hikkaduwa": [
+    {
+      "hotel_id": "579245",
+      "name": "Hikka Tranz by Cinnamon",
+      "rating": 4.5,
+      "num_reviews": 3665.0,
+      "latitude": 6.132134,
+      "longitude": 80.10093
+    },
+    {
+      "hotel_id": "2456385",
+      "name": "Roman Beach",
+      "rating": 4.5,
+      "num_reviews": 383.0,
+      "latitude": 6.12214,
+      "longitude": 80.11299
+    },
+    {
+      "hotel_id": "609883",
+      "name": "Citrus Hikkaduwa",
+      "rating": 4.0,
+      "num_reviews": 1862.0,
+      "latitude": 6.129539,
+      "longitude": 80.103065
+    },
+    {
+      "hotel_id": "2440919",
+      "name": "Coral Rock By Bansei",
+      "rating": 4.5,
+      "num_reviews": 848.0,
+      "latitude": 6.134446,
+      "longitude": 80.09998
+    },
+    {
+      "hotel_id": "14968725",
+      "name": "Riff Hikkaduwa",
+      "rating": 5.0,
+      "num_reviews": 445.0,
+      "latitude": 6.119619,
+      "longitude": 80.115555
+    },
+    {
+      "hotel_id": "606377",
+      "name": "Aditya Resort",
+      "rating": 5.0,
+      "num_reviews": 939.0,
+      "latitude": 6.094894,
+      "longitude": 80.134705
+    },
+    {
+      "hotel_id": "1181608",
+      "name": "Suite Lanka",
+      "rating": 4.5,
+      "num_reviews": 257.0,
+      "latitude": 6.120059,
+      "longitude": 80.115715
+    },
+    {
+      "hotel_id": "1009523",
+      "name": "Asian Jewel Boutique Hotel",
+      "rating": 5.0,
+      "num_reviews": 537.0,
+      "latitude": 6.137165,
+      "longitude": 80.11285
+    },
+    {
+      "hotel_id": "8669735",
+      "name": "The Residence Hikkaduwa",
+      "rating": 5.0,
+      "num_reviews": 353.0,
+      "latitude": 6.139847,
+      "longitude": 80.10202
+    },
+    {
+      "hotel_id": "9981492",
+      "name": "Villa Saffron Hikkaduwa",
+      "rating": 5.0,
+      "num_reviews": 376.0,
+      "latitude": 6.12215,
+      "longitude": 80.11331
+    }
+  ],
+  "Kalutara": [
+    {
+      "hotel_id": "10154736",
+      "name": "Anantara Kalutara Resort",
+      "rating": 5.0,
+      "num_reviews": 2187.0,
+      "latitude": 6.566024,
+      "longitude": 79.962555
+    },
+    {
+      "hotel_id": "316671",
+      "name": "Mermaid Hotel & Club",
+      "rating": 4.5,
+      "num_reviews": 3296.0,
+      "latitude": 6.617478,
+      "longitude": 79.94547
+    },
+    {
+      "hotel_id": "315691",
+      "name": "Turyaa Kalutara by Aitken Spence Hotels",
+      "rating": 4.5,
+      "num_reviews": 2219.0,
+      "latitude": 6.628131,
+      "longitude": 79.94048
+    },
+    {
+      "hotel_id": "315692",
+      "name": "Tangerine Beach Hotel",
+      "rating": 4.5,
+      "num_reviews": 2208.0,
+      "latitude": 6.608164,
+      "longitude": 79.94891
+    },
+    {
+      "hotel_id": "3596388",
+      "name": "Avani Kalutara Resort",
+      "rating": 4.5,
+      "num_reviews": 3331.0,
+      "latitude": 6.568177,
+      "longitude": 79.96049
+    },
+    {
+      "hotel_id": "315693",
+      "name": "Royal Palms Beach Hotel",
+      "rating": 4.5,
+      "num_reviews": 2652.0,
+      "latitude": 6.610031,
+      "longitude": 79.948364
+    },
+    {
+      "hotel_id": "8356701",
+      "name": "Coco Royal Beach Resort",
+      "rating": 4.0,
+      "num_reviews": 499.0,
+      "latitude": 6.613645,
+      "longitude": 79.947205
+    },
+    {
+      "hotel_id": "10628005",
+      "name": "Club Waskaduwa Beach Resort & Spa",
+      "rating": 4.0,
+      "num_reviews": 296.0,
+      "latitude": 6.616225,
+      "longitude": 79.94573
+    },
+    {
+      "hotel_id": "316669",
+      "name": "Hibiscus Beach Hotel",
+      "rating": 3.5,
+      "num_reviews": 246.0,
+      "latitude": 6.615206,
+      "longitude": 79.946724
+    },
+    {
+      "hotel_id": "3310513",
+      "name": "The Plantation Villa",
+      "rating": 4.5,
+      "num_reviews": 385.0,
+      "latitude": 6.552944,
+      "longitude": 80.06062
+    }
+  ],
+  "Kandy": [
+    {
+      "hotel_id": "25367549",
+      "name": "Grand Serendib Hotel",
+      "rating": 4.5,
+      "num_reviews": 190.0,
+      "latitude": 7.285386,
+      "longitude": 80.64447
+    },
+    {
+      "hotel_id": "797403",
+      "name": "Cinnamon Citadel Kandy",
+      "rating": 4.5,
+      "num_reviews": 4330.0,
+      "latitude": 7.3058,
+      "longitude": 80.6236
+    },
+    {
+      "hotel_id": "5566703",
+      "name": "Earl's Regent Hotel",
+      "rating": 4.5,
+      "num_reviews": 1718.0,
+      "latitude": 7.283507,
+      "longitude": 80.61064
+    },
+    {
+      "hotel_id": "316941",
+      "name": "Mahaweli Reach Hotel",
+      "rating": 4.5,
+      "num_reviews": 2584.0,
+      "latitude": 7.325309,
+      "longitude": 80.63124
+    }
+  ],
+  "Kochchikade": [
+    {
+      "hotel_id": "316667",
+      "name": "Jetwing Sea",
+      "rating": 4.0,
+      "num_reviews": 2314.0,
+      "latitude": 7.251501,
+      "longitude": 79.84224
+    }
+  ],
+  "Kudapaduwa": [
+    {
+      "hotel_id": "477844",
+      "name": "Camelot Beach Hotel",
+      "rating": 4.0,
+      "num_reviews": 1385.0,
+      "latitude": 7.23364,
+      "longitude": 79.84091
+    }
+  ],
+  "Mirissa": [
+    {
+      "hotel_id": "2054131",
+      "name": "The Spice House, Mirissa",
+      "rating": 5.0,
+      "num_reviews": 797.0,
+      "latitude": 5.941379,
+      "longitude": 80.46868
+    },
+    {
+      "hotel_id": "15749075",
+      "name": "Fresh Wave Mirissa",
+      "rating": 4.5,
+      "num_reviews": 213.0,
+      "latitude": 5.945162,
+      "longitude": 80.459724
+    },
+    {
+      "hotel_id": "1413017",
+      "name": "Paradise Beach Club",
+      "rating": 3.5,
+      "num_reviews": 1055.0,
+      "latitude": 5.945356,
+      "longitude": 80.45745
+    },
+    {
+      "hotel_id": "1902973",
+      "name": "Palm Villa Mirissa",
+      "rating": 4.5,
+      "num_reviews": 762.0,
+      "latitude": 5.94277,
+      "longitude": 80.463036
+    },
+    {
+      "hotel_id": "1307887",
+      "name": "Mandara Resort",
+      "rating": 4.0,
+      "num_reviews": 874.0,
+      "latitude": 5.964277,
+      "longitude": 80.45385
+    },
+    {
+      "hotel_id": "7608347",
+      "name": "Randiya Sea View Hotel",
+      "rating": 4.5,
+      "num_reviews": 322.0,
+      "latitude": 5.944735,
+      "longitude": 80.46083
+    }
+  ],
+  "Negombo": [
+    {
+      "hotel_id": "8073048",
+      "name": "Sentido Heritance Negombo",
+      "rating": 4.5,
+      "num_reviews": 2266.0,
+      "latitude": 7.234856,
+      "longitude": 79.84086
+    },
+    {
+      "hotel_id": "308529",
+      "name": "Jetwing Beach",
+      "rating": 4.5,
+      "num_reviews": 2498.0,
+      "latitude": 7.243559,
+      "longitude": 79.84192
+    },
+    {
+      "hotel_id": "308530",
+      "name": "Jetwing Blue",
+      "rating": 4.0,
+      "num_reviews": 2428.0,
+      "latitude": 7.241645,
+      "longitude": 79.84201
+    },
+    {
+      "hotel_id": "2510666",
+      "name": "Jetwing Lagoon",
+      "rating": 4.5,
+      "num_reviews": 1567.0,
+      "latitude": 7.168034,
+      "longitude": 79.82589
+    },
+    {
+      "hotel_id": "23932183",
+      "name": "Belmont Boutique Hotel",
+      "rating": 5.0,
+      "num_reviews": 152.0,
+      "latitude": 7.235011,
+      "longitude": 79.842575
+    },
+    {
+      "hotel_id": "316666",
+      "name": "Hotel Goldi Sands",
+      "rating": 4.0,
+      "num_reviews": 1621.0,
+      "latitude": 7.24535,
+      "longitude": 79.84174
+    },
+    {
+      "hotel_id": "579255",
+      "name": "Jetwing Ayurveda Pavilions",
+      "rating": 4.5,
+      "num_reviews": 429.0,
+      "latitude": 7.237022,
+      "longitude": 79.84177
+    },
+    {
+      "hotel_id": "12924646",
+      "name": "Regenta Arie Lagoon",
+      "rating": 4.5,
+      "num_reviews": 460.0,
+      "latitude": 7.168803,
+      "longitude": 79.82558
+    },
+    {
+      "hotel_id": "3400937",
+      "name": "Morning Star Resorts",
+      "rating": 4.5,
+      "num_reviews": 838.0,
+      "latitude": 7.254796,
+      "longitude": 79.84371
+    },
+    {
+      "hotel_id": "4323102",
+      "name": "Hotel J Negombo",
+      "rating": 3.5,
+      "num_reviews": 747.0,
+      "latitude": 7.232735,
+      "longitude": 79.84051
+    }
+  ],
+  "Palatupana": [
+    {
+      "hotel_id": "8871806",
+      "name": "Uga Chena Huts",
+      "rating": 5.0,
+      "num_reviews": 1093.0,
+      "latitude": 6.264492,
+      "longitude": 81.41136
+    },
+    {
+      "hotel_id": "638092",
+      "name": "Cinnamon Wild Yala",
+      "rating": 4.5,
+      "num_reviews": 3758.0,
+      "latitude": 6.259364,
+      "longitude": 81.40433
+    },
+    {
+      "hotel_id": "4833492",
+      "name": "Jetwing Yala",
+      "rating": 4.5,
+      "num_reviews": 3042.0,
+      "latitude": 6.262004,
+      "longitude": 81.40938
+    },
+    {
+      "hotel_id": "12973489",
+      "name": "Wild Coast Tented Lodge - Relais & Chateaux",
+      "rating": 5.0,
+      "num_reviews": 606.0,
+      "latitude": 6.262167,
+      "longitude": 81.40662
+    },
+    {
+      "hotel_id": "26194654",
+      "name": "Hilton Yala Resort",
+      "rating": 5.0,
+      "num_reviews": 131.0,
+      "latitude": 6.257097,
+      "longitude": 81.40043
+    },
+    {
+      "hotel_id": "3748692",
+      "name": "Laya Safari",
+      "rating": 4.5,
+      "num_reviews": 745.0,
+      "latitude": 6.249011,
+      "longitude": 81.39219
+    }
+  ],
+  "Panadura": [
+    {
+      "hotel_id": "10422418",
+      "name": "Jie Jie Beach by Jetwing",
+      "rating": 4.0,
+      "num_reviews": 677.0,
+      "latitude": 6.70331,
+      "longitude": 79.905975
+    },
+    {
+      "hotel_id": "7695054",
+      "name": "Blue Beach Wadduwa",
+      "rating": 4.0,
+      "num_reviews": 104.0,
+      "latitude": 6.681201,
+      "longitude": 79.91822
+    }
+  ],
+  "Polonnaruwa": [
+    {
+      "hotel_id": "447419",
+      "name": "Deer Park Hotel",
+      "rating": 4.0,
+      "num_reviews": 826.0,
+      "latitude": 7.990125,
+      "longitude": 80.92164
+    },
+    {
+      "hotel_id": "6921675",
+      "name": "Ekho Lake House",
+      "rating": 4.5,
+      "num_reviews": 303.0,
+      "latitude": 7.942686,
+      "longitude": 80.997116
+    },
+    {
+      "hotel_id": "3879249",
+      "name": "Tishan Holiday Resort",
+      "rating": 4.5,
+      "num_reviews": 290.0,
+      "latitude": 7.962812,
+      "longitude": 80.977554
+    },
+    {
+      "hotel_id": "3682523",
+      "name": "Seyara Holiday Resort",
+      "rating": 4.5,
+      "num_reviews": 340.0,
+      "latitude": 7.963073,
+      "longitude": 80.98703
+    },
+    {
+      "hotel_id": "577158",
+      "name": "Hotel Sudu Araliya",
+      "rating": 4.0,
+      "num_reviews": 667.0,
+      "latitude": 7.923046,
+      "longitude": 80.99273
+    }
+  ],
+  "Pottuvil": [
+    {
+      "hotel_id": "12949765",
+      "name": "Jetwing Surf",
+      "rating": 4.5,
+      "num_reviews": 378.0,
+      "latitude": 6.879561,
+      "longitude": 81.84314
+    },
+    {
+      "hotel_id": "20113947",
+      "name": "Whisky Point Resort",
+      "rating": 5.0,
+      "num_reviews": 93.0,
+      "latitude": 6.905878,
+      "longitude": 81.8433
+    },
+    {
+      "hotel_id": "4799724",
+      "name": "Kottukal Beach House By Jetwing",
+      "rating": 4.5,
+      "num_reviews": 117.0,
+      "latitude": 6.88221,
+      "longitude": 81.84444
+    }
+  ],
+  "Talpe": [
+    {
+      "hotel_id": "15050754",
+      "name": "Sielen Diva",
+      "rating": 5.0,
+      "num_reviews": 195.0,
+      "latitude": 5.998871,
+      "longitude": 80.270584
+    },
+    {
+      "hotel_id": "9978106",
+      "name": "Owl and the Pussycat Hotel",
+      "rating": 4.5,
+      "num_reviews": 370.0,
+      "latitude": 5.998562,
+      "longitude": 80.27163
+    },
+    {
+      "hotel_id": "983489",
+      "name": "The Frangipani Tree by Edwards Collection",
+      "rating": 4.5,
+      "num_reviews": 582.0,
+      "latitude": 5.998858,
+      "longitude": 80.27316
+    },
+    {
+      "hotel_id": "7697108",
+      "name": "Elysium",
+      "rating": 5.0,
+      "num_reviews": 87.0,
+      "latitude": 5.998728,
+      "longitude": 80.27084
+    },
+    {
+      "hotel_id": "1583136",
+      "name": "Ayurveda Paragon",
+      "rating": 4.5,
+      "num_reviews": 164.0,
+      "latitude": 5.996067,
+      "longitude": 80.28416
+    },
+    {
+      "hotel_id": "1808812",
+      "name": "Era Beach",
+      "rating": 4.5,
+      "num_reviews": 344.0,
+      "latitude": 6.001566,
+      "longitude": 80.26058
+    }
+  ],
+  "Trincomalee": [
+    {
+      "hotel_id": "10052141",
+      "name": "Jkab Beach Resort",
+      "rating": 3.5,
+      "num_reviews": 211.0,
+      "latitude": 8.596079,
+      "longitude": 81.22259
+    },
+    {
+      "hotel_id": "3505692",
+      "name": "Coconut Beach Lodge",
+      "rating": 3.5,
+      "num_reviews": 368.0,
+      "latitude": 8.611691,
+      "longitude": 81.21871
+    },
+    {
+      "hotel_id": "7079606",
+      "name": "Anantamaa",
+      "rating": 4.0,
+      "num_reviews": 393.0,
+      "latitude": 8.615138,
+      "longitude": 81.21772
+    },
+    {
+      "hotel_id": "2573046",
+      "name": "Golden Beach Cottages",
+      "rating": 4.5,
+      "num_reviews": 178.0,
+      "latitude": 8.616711,
+      "longitude": 81.218414
+    },
+    {
+      "hotel_id": "1775384",
+      "name": "Trinco Blu By Cinnamon",
+      "rating": 4.5,
+      "num_reviews": 2741.0,
+      "latitude": 8.617864,
+      "longitude": 81.21754
+    },
+    {
+      "hotel_id": "7788909",
+      "name": "Amaranthe Bay Resort",
+      "rating": 4.5,
+      "num_reviews": 1022.0,
+      "latitude": 8.618372,
+      "longitude": 81.21544
+    }
+  ],
+  "Wadduwa": [
+    {
+      "hotel_id": "586453",
+      "name": "The Blue Water",
+      "rating": 4.5,
+      "num_reviews": 2587.0,
+      "latitude": 6.6776,
+      "longitude": 79.920364
+    },
+    {
+      "hotel_id": "13493984",
+      "name": "The Villas Wadduwa",
+      "rating": 4.5,
+      "num_reviews": 236.0,
+      "latitude": 6.67429,
+      "longitude": 79.92219
+    },
+    {
+      "hotel_id": "15330244",
+      "name": "Ayana Sea",
+      "rating": 5.0,
+      "num_reviews": 122.0,
+      "latitude": 6.656487,
+      "longitude": 79.92977
+    },
+    {
+      "hotel_id": "1233956",
+      "name": "Reef Villa & Spa",
+      "rating": 5.0,
+      "num_reviews": 629.0,
+      "latitude": 6.659596,
+      "longitude": 79.92986
+    },
+    {
+      "hotel_id": "1591244",
+      "name": "Serene Pavilions",
+      "rating": 4.5,
+      "num_reviews": 422.0,
+      "latitude": 6.672595,
+      "longitude": 79.92425
+    },
+    {
+      "hotel_id": "13413633",
+      "name": "Oak Ray Haridra Beach Resort",
+      "rating": 4.5,
+      "num_reviews": 496.0,
+      "latitude": 6.645429,
+      "longitude": 79.93429
+    },
+    {
+      "hotel_id": "7358937",
+      "name": "Taprobana Wadduwa By Asia Leisure",
+      "rating": 4.5,
+      "num_reviews": 523.0,
+      "latitude": 6.676711,
+      "longitude": 79.922066
+    }
+  ],
+  "Yala National Park": [
+    {
+      "hotel_id": "5817895",
+      "name": "Yala Safari Camping",
+      "rating": 5.0,
+      "num_reviews": 509.0,
+      "latitude": 6.378556,
+      "longitude": 81.38269
+    },
+    {
+      "hotel_id": "1226088",
+      "name": "Mahoora Tented Safari Camp Yala",
+      "rating": 4.5,
+      "num_reviews": 444.0,
+      "latitude": 6.40626,
+      "longitude": 81.37566
+    },
+    {
+      "hotel_id": "630497",
+      "name": "Kulu Safaris Sri Lanka",
+      "rating": 5.0,
+      "num_reviews": 422.0,
+      "latitude": 6.390171,
+      "longitude": 81.373665
+    }
+  ]
+}

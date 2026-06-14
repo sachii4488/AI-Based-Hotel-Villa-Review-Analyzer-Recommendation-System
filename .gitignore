@@ -1,0 +1,12 @@
+.env
+venv/
+output/chroma_db/
+output/reviews_by_hotel.json
+output/reviews_df.csv
+output/reviews_with_sentiment.csv
+data/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
