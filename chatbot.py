@@ -226,15 +226,22 @@ def format_factual_answer(place_info, question=""):
         if place_info.get("maps_url"):
             lines.append(f"Google Maps: {place_info['maps_url']}")
 
-    # Phone / contact
-    if any(k in q for k in ["phone", "contact", "call", "number"]):
+    # Phone / contact number
+    if any(k in q for k in ["phone", "call", "number", "contact number", "telephone", "hotline", "reach them", "contact"]):
         if place_info.get("phone"):
             lines.append(f"Phone: {place_info['phone']}")
         else:
             lines.append("Phone: I could not verify the phone number.")
 
-    # Website / email
-    if any(k in q for k in ["website", "email", "online", "web"]):
+    # Email — Google Places doesn't provide email, redirect to website
+    if any(k in q for k in ["email", "mail"]):
+        if place_info.get("website"):
+            lines.append(f"Email: This hotel's email is not directly available. You may find it on their website: {place_info['website']}")
+        else:
+            lines.append("Email: I could not find an email address for this hotel.")        
+
+    # Website / email — only when clearly asking for web/online info
+    if any(k in q for k in ["website", "online", "web", "url", "link"]):
         if place_info.get("website"):
             lines.append(f"Website: {place_info['website']}")
         else:
