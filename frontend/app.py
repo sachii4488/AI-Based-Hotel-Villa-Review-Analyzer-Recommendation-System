@@ -17,31 +17,42 @@ st.set_page_config(
     page_title="Sri Lanka Hotel & Villa Analyzer",
     page_icon="🏨",
     layout="wide",
+    initial_sidebar_state="collapsed",
 )
 
 # ── Custom CSS ─────────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
 .pro-card {
-    background-color: #d4edda;
-    border-left: 5px solid #28a745;
-    padding: 10px 15px;
-    border-radius: 6px;
-    margin-bottom: 8px;
-    color: #155724;
+    background: linear-gradient(135deg, #1a3a2a, #1f4d35);
+    border-left: 4px solid #2ecc71;
+    padding: 12px 18px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #a8f0c6;
     font-size: 15px;
+    box-shadow: 0 2px 8px rgba(46, 204, 113, 0.15);
+    transition: transform 0.2s;
+}
+.pro-card:hover {
+    transform: translateX(4px);
 }
 .con-card {
-    background-color: #f8d7da;
-    border-left: 5px solid #dc3545;
-    padding: 10px 15px;
-    border-radius: 6px;
-    margin-bottom: 8px;
-    color: #721c24;
+    background: linear-gradient(135deg, #3a1a1a, #4d1f1f);
+    border-left: 4px solid #e74c3c;
+    padding: 12px 18px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #f0a8a8;
     font-size: 15px;
+    box-shadow: 0 2px 8px rgba(231, 76, 60, 0.15);
+    transition: transform 0.2s;
+}
+.con-card:hover {
+    transform: translateX(4px);
 }
 .chat-bubble-user {
-    background-color: #007bff;
+    background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
     padding: 10px 15px;
     border-radius: 15px 15px 0px 15px;
@@ -49,14 +60,17 @@ st.markdown("""
     max-width: 80%;
     margin-left: auto;
     text-align: right;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
 }
 .chat-bubble-ai {
-    background-color: #f1f1f1;
-    color: #333;
+    background-color: #1e2535;
+    color: #e0e0e0;
     padding: 10px 15px;
     border-radius: 15px 15px 15px 0px;
     margin: 6px 0;
     max-width: 80%;
+    border: 1px solid #2e3a50;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 .metric-box {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -117,10 +131,15 @@ if "chat_history" not in st.session_state:
 
 
 # ── Header ─────────────────────────────────────────────────────────────────────
-st.title("🏨 Sri Lanka Hotel & Villa Review Analyzer")
-st.markdown(
-    "AI-powered sentiment analysis and Q&A chatbot based on real TripAdvisor reviews.")
-st.divider()
+st.markdown("""
+<div style="text-align: center; padding: 20px 0 10px 0;">
+    <h1 style="font-size: 2.4rem; font-weight: 700;">🏨 Sri Lanka Hotel & Villa Review Analyzer</h1>
+    <p style="color: #aaa; font-size: 16px;">AI-powered sentiment analysis and Q&A chatbot based on real TripAdvisor reviews.</p>
+</div>
+""", unsafe_allow_html=True)
+st.markdown("""
+<div style="height: 3px; background: linear-gradient(90deg, #667eea, #764ba2, #667eea); border-radius: 2px; margin-bottom: 20px;"></div>
+""", unsafe_allow_html=True)
 
 # ── Page 1: City selection ─────────────────────────────────────────────────────
 cities = fetch_cities()
@@ -130,7 +149,7 @@ if not cities:
     st.stop()
 
 selected_city = st.selectbox(
-    "📍 Select a City",
+    "📍 Choose Your Destination",
     options=["-- Select a city --"] + sorted(cities),
 )
 
@@ -192,29 +211,32 @@ with col4:
 
 # Sentiment progress bar
 positive_pct = sentiment.get("positive_pct", 0)
-st.markdown(f"**Overall Sentiment Score: {positive_pct}% Positive**")
+st.markdown(f"""
+<div style="font-size: 16px; font-weight: 600; color: #a8f0c6; margin-bottom: 6px;">
+    📈 Overall Sentiment Score: {positive_pct}% Positive
+</div>
+""", unsafe_allow_html=True)
 st.progress(int(positive_pct) / 100)
-
 st.divider()
 
 # ── Pros and Cons ──────────────────────────────────────────────────────────────
 col_pros, col_cons = st.columns(2)
 
 with col_pros:
-    st.subheader("✅ What Guests Liked")
+    st.markdown('<h3 style="color:#2ecc71; margin-bottom:12px;">✦ What Guests Liked</h3>', unsafe_allow_html=True)
     if pros:
         for pro in pros:
             st.markdown(
-                f'<div class="pro-card">👍 {pro}</div>', unsafe_allow_html=True)
+                f'<div class="pro-card">🌟 {pro}</div>', unsafe_allow_html=True)
     else:
         st.info("No pros data available for this hotel.")
 
 with col_cons:
-    st.subheader("❌ What Guests Disliked")
+    st.markdown('<h3 style="color:#e74c3c; margin-bottom:12px;">✦ What Guests Disliked</h3>', unsafe_allow_html=True)
     if cons:
         for con in cons:
             st.markdown(
-                f'<div class="con-card">👎 {con}</div>', unsafe_allow_html=True)
+                f'<div class="con-card">⚠️ {con}</div>', unsafe_allow_html=True)
     else:
         st.info("No cons data available for this hotel.")
 
