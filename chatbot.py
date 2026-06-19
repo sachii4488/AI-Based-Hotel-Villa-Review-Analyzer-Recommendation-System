@@ -226,6 +226,7 @@ def format_factual_answer(place_info, question=""):
         if place_info.get("maps_url"):
             lines.append(f"Google Maps: {place_info['maps_url']}")
 
+
     # Phone / contact number
     if any(k in q for k in ["phone", "call", "number", "contact number", "telephone", "hotline", "reach them", "contact"]):
         if place_info.get("phone"):
